@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    overflow-x: hidden;
+}
+.header{
+    background-image: url(https://avatars.mds.yandex.net/i?id=b66e81747d9c5bb8da21d13ede5f271bfd8827a0-10755803-images-thumbs&n=13);
+    margin: 0;
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.899;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    border: 1px solid wheat;
+}
+li{
+    display: block;
+    font-size: 18px;
+    padding: 20px 60px;
+    background-color: #181a2c;
+    border: 1px solid black;
+    opacity: 0.8;
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+a:hover{
+    font-size: 28px;
+    text-decoration: solid;
+    color: gold;
+}
+#logo{
+    width: 80px;
+    height: 65px;
+    margin-top: 2px;
+    opacity: 0.6;
+}
+.logo{
+    width: 160px;
+    height: 130px;
+    opacity: 0.69;
+    padding: 10px;
+    margin: 5px;
+}
+h1{
+    font-size: 64px;
+    background-color: #181a2c;
+    color: darkgrey;
+    opacity: 0.89;
+    padding: 25px 0 5px 0;
+    text-align: center;
+    margin: 125px 0 0 0;
+    border: 1px solid wheat;
+}
+.parag1{
+    font-size: 24px;
+    background-color: #181a2c;
+    color: darkgrey;
+    text-align: center;
+    border: 1px solid wheat;
+    opacity: 0.88;
+    margin: 0 0 125px 0;
+}
+hr{
+    margin: 0;
+}
+#about_me{
+     background-image: linear-gradient(to left bottom, #181981, #181a4e);
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding-bottom: 2px;
+    opacity: 0.94;
+}
+.sect_block{
+    padding: 0 0 50px 0;
+}
+.head2{
+    font-size: 48px;
+    margin: 30px 0 50px 0;
+    padding: 20px 0 21px 0;
+    color: darkgray;
+    opacity: 0.88;
+    border: 1px solid wheat;
+    background-color: #181a2c;
+    text-align: center;
+}
+.parag2{
+    font-size: 24px;
+    background-color: #181a2c;
+    color: darkgrey;
+    border: 1px solid wheat;
+    opacity: 0.88;
+    width: 55%;
+    padding: 15px 15px 15px 25px;
+    word-spacing: 10px;
+    line-height: 45px;
+}
+.bg_img{
+    padding: 5px 0 50px 0;
+}
+.face{
+    width: 40%;
+    height: 600px;
+    border: 2px solid wheat;
+    opacity: 0.672;
+    filter: brightness(1%);
+}
+.display_face{
+    display: flex;
+    gap: 20px;
+}
+.bg2_img{
+    background-image: linear-gradient(to right top, #252670, #252670);
+    opacity: 0.94;
+    padding-bottom: 20px;
+}
+.head3{
+    font-size: 48px;
+    margin: 30px 0 50px 0;
+    padding: 20px 0 21px 0;
+    color: darkgray;
+    opacity: 0.88;
+    border: 1px solid wheat;
+    background-color: #181a2c;
+    text-align: center;
+
+}
+.foot_block{
+    background-image: url(https://avatars.mds.yandex.net/i?id=b66e81747d9c5bb8da21d13ede5f271bfd8827a0-10755803-images-thumbs&n=13);
+    background-repeat: no repeat;
+    background-size: 100%;
+    opacity: 0.876;
+    padding: 20px;
+    display: flex;
+    gap: 45px;
+}
+.foot2_block{
+    width: 50%;
+    font-size: 18px;
+    color: darkgray;
+    border: 1px solid wheat;
+    background-color: #181a2c;
+    padding: 10px 0 10px;
+    opacity: 0.9;
+}
+.w50{
+    width: 40%;
+}
+.privacy_policy{
+    font-size: 18px;
+    color: darkgray;
+    border: 1px solid wheat;
+    background-color: #181a2c;
+    padding: 10px 0 10px;
+    opacity: 0.9;
+}
+.privacy_policy_href:hover{
+    font-size: 24px;
+    color: gold;
+}
+.bg2_wi{
+    width: 40%;
+    gap: 10px;
+    margin: 15px 70px;
+    border: 1px solid wheat;
+    background: #181a2c;
+}
+.img_works{
+    opacity: 0.88;
+    border-radius: 20px;
+    width: 100%;
+    height: 430px;
+}
+.parag3{
+    font-size: 18px;
+    color: darkgrey;
+    background: #181a2c;
+    opacity: 0.8;
+}
+.data{
+    font-size: 16px;
+    color: darkgrey;
+    background: #181a2c;
+}
+.bord_work{
+    border: 1px solid wheat;
+}
+.display_work{
+    display: flex;
+}
+.sect3_block{
+    background-image: linear-gradient(to right top, #252670, #252670);
+    opacity: 0.94;
+    padding:20px 0
+}
+form{
+    padding:20px;
+    display: block;
+}
+input{
+    display: block;
+    margin-bottom: 4px;
+    padding: 10px 20px;
+}
+.phone, .e_mail{
+    width: 50%;
+    height: 49px;
+    border-radius: 15px ;
+    box-shadow: #181a2c;
+}
+.head4{
+    font-size: 48px;
+    margin: 20px 0 40px 0;
+    padding: 20px 0 21px 0;
+    color: darkgray;
+    opacity: 0.88;
+    border: 1px solid wheat;
+    background-color: #181a2c;
+    text-align: left;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu li {
+    margin-right: 20px;
+}
+/* Стили для бургер-меню */
+.burger-menu {
+    display: none; /* По умолчанию скрываем бургер-меню на больших экранах */
+    cursor: pointer;
+}
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+@media screen and (max-width: 876px){
+    .burger-menu {
+        display: block;
+    }
+    .menu {
+        display: none; /* Скрываем основное меню на маленьких экранах */
+        flex-direction: column; /* По умолчанию столбец (вертикально) */
+    }
+    .burger-menu.active .bar:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+    .burger-menu.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .burger-menu.active .bar:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+    .menu.active {
+        display: flex; /* Показываем меню при активации бургер-меню */
+        flex-direction: row; /* Теперь горизонтально */
+        align-items: center;
+    }
+    
+    header, section, footer{
+        padding: 6px  5px;
+        margin: 0;
+    }
+    li{
+        font-size: 12px;
+        padding: 10px 30px;
+        background-color: #181a2c;
+        border: 1px solid black;
+        opacity: 0.8;
+    }
+    .h_container{
+        margin: 67.2px 0 1px;
+    }
+    h1{
+        font-size: 42px;
+        opacity: 0.88;
+        padding: 25px 0 4px 0;
+        margin: 67.2px 0 0 0;
+    }
+    .head2{
+        font-size: 36px;
+        margin: 20px 0 40px 0;
+        padding: 15px 0 16px 0;
+    }
+    .head3{
+        font-size: 36px;
+        margin: 20px 0 40px 0;
+        padding: 15px 0 16px 0;
+    }
+    .parag1{
+        font-size: 12px;
+        margin: 0;
+    }
+    .parag2{
+        font-size: 16px;
+        width: 50%;
+        padding: 10px 10px 10px 20px;
+        word-spacing: 5px;
+        line-height: 35px;
+    }
+    .display_face{
+        gap: 15px;
+    }
+    .sect_block{
+        padding: 0;
+    }
+    #logo{
+        width: 40px;
+        height: 35px;
+        margin-top: 1px;
+    }
+    ul{
+        display: flex;
+    }
+}
